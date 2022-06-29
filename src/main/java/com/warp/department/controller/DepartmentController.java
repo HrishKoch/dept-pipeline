@@ -27,4 +27,9 @@ public class DepartmentController {
         return departmentService.findDepartmentById(departmentId);
     }
 
+    @PostMapping("/test")
+    public String testDepartment() {
+        log.info("Inside saveDepartment method of DepartmentController");
+        return "App test for department successfull" ;
+    }    
 }
