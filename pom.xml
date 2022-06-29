@@ -14,6 +14,7 @@
 	<version>0.0.1</version>
 	<name>pipe-department-service</name>
 	<description>pipe-department-service</description>
+	<packaging>war</packaging>  <!-- Change this from jar to war -->
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
